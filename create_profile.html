@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Book Lender App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <center>
+            <h1>Create Your Profile!</h1>
+            <hr>
+    
+            <h2>Name: </h2>
+            <input type="text" id="signup_name_input" class="form-control" placeholder="Enter your name here:">
+            <hr>
+
+            <h2>Class:</h2>
+            <input type="number" id="signup_class_input" class="form-control" placeholder="Enter your class here:">
+            <hr>
+
+            <h2>Section:</h2>
+            <input type="text" id="signup_section_input" class="form-control" placeholder="Enter your section here:">
+            <hr>
+
+            <h2>Books Available:</h2>
+            <input type="text" id="signup_books_available_input" class="form-control" placeholder="Enter the books available with you here:">
+            <hr>
+
+            <button id="sign_up" onclick="createProfile();" class="btn btn-success">Create your BookLender Profile!</button>
+        </center>
+    </body>
+    <script src="create_profile.js"></script>
+</html>
